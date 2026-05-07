@@ -1,3 +1,3 @@
-function przywitaj() {
-  alert("Witaj na mojej pierwszej stronie!");
+function pokazWiadomosc() {
+  alert("Dzięki za odwiedzenie mojego portfolio!");
 }
