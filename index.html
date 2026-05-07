@@ -2,22 +2,59 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Cześć, jestem Ali</h1>
-  <p>To moja pierwsza strona wrzucona na GitHub.</p>
 
-  <h2>Czego się uczę?</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>GitHub</li>
-  </ul>
+  <header>
+    <h1>Cześć, jestem Ali 👋</h1>
+    <p>Uczę się programowania i tworzę swoje pierwsze projekty na GitHubie.</p>
+    <a href="#projekty" class="button">Zobacz moje projekty</a>
+  </header>
 
-  <button onclick="przywitaj()">Kliknij mnie</button>
+  <section>
+    <h2>O mnie</h2>
+    <p>
+      To jest moja pierwsza strona portfolio. Poznaję HTML, CSS, JavaScript oraz GitHub.
+      Chcę rozwijać swoje umiejętności i tworzyć coraz lepsze projekty.
+    </p>
+  </section>
+
+  <section>
+    <h2>Czego się uczę?</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>GitHub</span>
+    </div>
+  </section>
+
+  <section id="projekty">
+    <h2>Moje projekty</h2>
+
+    <div class="project">
+      <h3>My Portfolio</h3>
+      <p>Moje pierwsze repozytorium i pierwsza strona opublikowana przez GitHub Pages.</p>
+    </div>
+
+    <div class="project">
+      <h3>Następny projekt</h3>
+      <p>Tutaj w przyszłości dodam kolejny projekt.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kontakt</h2>
+    <p>Możesz znaleźć moje projekty na GitHubie.</p>
+    <button onclick="pokazWiadomosc()">Kliknij mnie</button>
+  </section>
+
+  <footer>
+    <p>© 2026 Ali — My Portfolio</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
